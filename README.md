@@ -58,7 +58,7 @@ The application is built as part of an **academic NLP final project**.
 ### 1️⃣ Clone the Repository
 git clone https://github.com/anthoonydavidson/balihotel-review-analyzer.git
 
-cd your-repo-name
+cd balihotel-review-analyzer
 
 ### 2️⃣ Install Dependencies
 pip install -r requirements.txt
