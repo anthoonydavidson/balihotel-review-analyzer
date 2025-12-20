@@ -59,17 +59,26 @@ The application is built as part of an **academic NLP final project**.
 ```bash
 git clone https://github.com/anthoonydavidson/balihotel-review-analyzer.git
 cd balihotel-review-analyzer
+```
 
 ### 2️⃣ Create virtual environment (recommended)
+```bash
 python -m venv venv
 venv\Scripts\activate    # for Windows
 source venv/bin/activate  # for macOS / Linux
+```
 
 ### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Download spaCy Model
+```bash
 python -m spacy download en_core_web_sm
+```
 
 ### ▶️ Run the Streamlit App
+```bash
 streamlit run app.py
+```
