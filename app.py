@@ -36,15 +36,7 @@ def load_summarizer():
 
 @st.cache_resource
 def load_spacy():
-    try:
-        return spacy.load("en_core_web_sm")
-    except OSError:
-        # Model not found → download it
-        subprocess.run(
-            [sys.executable, "-m", "spacy", "download", "en_core_web_sm"],
-            check=True
-        )
-        return spacy.load("en_core_web_sm")
+    return spacy.load("en_core_web_sm")
 
 sentiment_model, sentiment_tokenizer = load_sentiment_model()
 summarizer = load_summarizer()
