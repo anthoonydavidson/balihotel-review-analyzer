@@ -13,4 +13,4 @@ nltk==3.8.1
 spacy==3.7.2
 torch==2.3.0
 streamlit==1.40.0
-pyngrok==7.1.2
+huggingface_hub
