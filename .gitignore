@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+nlp_env/
+
+# HuggingFace cache
+.cache/
+huggingface/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Models
+bart_model/
+best_sentiment_model/
+
+# Jupyter
+.ipynb_checkpoints/
