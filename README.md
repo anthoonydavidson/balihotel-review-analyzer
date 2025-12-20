@@ -7,7 +7,7 @@ It allows users to:
 - Perform **aspect-based sentiment analysis**
 - Interact with the system through a **Streamlit web interface**
 
-The application is built as part of an **academic NLP final project** and uses **GPU acceleration** when available.
+The application is built as part of an **academic NLP final project**.
 
 ---
 
@@ -23,10 +23,6 @@ The application is built as part of an **academic NLP final project** and uses *
 - **Aspect-Based Sentiment Analysis**
   - Automatically extracts hotel-related aspects (e.g., room, staff, location)
   - Predicts sentiment per aspect using a **fine-tuned DeBERTa model**
-
-- **GPU Acceleration**
-  - Automatically uses GPU (CUDA) if available
-  - Falls back to CPU when GPU is not present
 
 ---
 
