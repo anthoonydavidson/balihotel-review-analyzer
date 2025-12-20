@@ -44,17 +44,20 @@ The application is built as part of an **academic NLP final project**.
 ---
 
 ## 📦 Project Structure
-├── app.py # Streamlit application
-├── combine (1).csv # Dataset used (scraped from Tripadvisor)
-├── grouped_reviews.csv # Processed hotel reviews
-├── requirements.txt # Python dependencies
-├── NLP_Final_Project.ipynb # Training & experimentation notebook
-└── README.md
+- app.py # Streamlit application
+- NLP_Final_Project.ipynb # Training & experimentation notebook
+- combine (1).csv # Dataset used (scraped from Tripadvisor)
+- grouped_reviews.csv # Processed hotel reviews
+- requirements.txt # Python dependencies
+- README.md
+
+---
 
 ## 🛠 Installation & Setup
 
 ### 1️⃣ Clone the Repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/anthoonydavidson/balihotel-review-analyzer.git
+
 cd your-repo-name
 
 ### 2️⃣ Install Dependencies
