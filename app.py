@@ -5,6 +5,8 @@ from nltk.tokenize import sent_tokenize
 import spacy
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
+import subprocess
+import sys
 
 # ============================
 # BASIC SETUP
@@ -34,7 +36,15 @@ def load_summarizer():
 
 @st.cache_resource
 def load_spacy():
-    return spacy.load("en_core_web_sm")
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        # Model not found → download it
+        subprocess.run(
+            [sys.executable, "-m", "spacy", "download", "en_core_web_sm"],
+            check=True
+        )
+        return spacy.load("en_core_web_sm")
 
 sentiment_model, sentiment_tokenizer = load_sentiment_model()
 summarizer = load_summarizer()
