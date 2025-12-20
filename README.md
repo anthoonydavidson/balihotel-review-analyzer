@@ -34,7 +34,7 @@ The application is built as part of an **academic NLP final project**.
 - **Hosted on**: 🤗 Hugging Face Hub
 
 ### 2. Summarization
-- **Model**: BART (fine-tuned)
+- **Model**: BART
 - **Task**: Abstractive summarization
 - **Hosted on**: 🤗 Hugging Face Hub
 
