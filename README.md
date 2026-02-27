@@ -1,6 +1,6 @@
 # 🏨 Hotel Review Summarizer & Aspect-Based Sentiment Analysis
 
-This project is an **NLP-based web application** that analyzes hotel reviews using **deep learning models**.  
+This project is a **NLP-based web application** that analyzes hotel reviews using **deep learning models**.  
 It allows users to:
 - View long hotel reviews
 - Automatically summarize reviews
@@ -17,7 +17,7 @@ The application is built as part of an **academic NLP final project**.
   - Browse hotels and view aggregated customer reviews
 
 - **Neural Review Summarization**
-  - Uses a fine-tuned **BART** model for abstractive summarization
+  - Uses a **BART** model for abstractive summarization
   - Adjustable summary length
 
 - **Aspect-Based Sentiment Analysis**
