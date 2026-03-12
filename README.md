@@ -1,4 +1,4 @@
-# 🏨 Hotel Review Summarizer & Aspect-Based Sentiment Analysis
+# Hotel Review Summarizer & Aspect-Based Sentiment Analysis
 
 This project is a **NLP-based web application** that analyzes hotel reviews using **deep learning models**.  
 It allows users to:
@@ -11,7 +11,7 @@ The application is built as part of an **academic NLP final project**.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Hotel Review Selection**
   - Browse hotels and view aggregated customer reviews
@@ -26,24 +26,24 @@ The application is built as part of an **academic NLP final project**.
 
 ---
 
-## 🧠 Models Used
+## Models Used
 
 ### 1. Sentiment Classification
 - **Model**: DeBERTa (fine-tuned)
 - **Task**: Binary sentiment classification (Positive / Negative)
-- **Hosted on**: 🤗 Hugging Face Hub
+- **Hosted on**: Hugging Face Hub
 
 ### 2. Summarization
 - **Model**: BART
 - **Task**: Abstractive summarization
-- **Hosted on**: 🤗 Hugging Face Hub
+- **Hosted on**: Hugging Face Hub
 
 > ⚠️ Models are **not stored in GitHub** due to size limitations.  
 > They are automatically downloaded from Hugging Face Hub when the app runs.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 - app.py # Streamlit application
 - NLP_Final_Project.ipynb # Training & experimentation notebook
 - combine (1).csv # Dataset used (scraped from Tripadvisor)
@@ -53,7 +53,7 @@ The application is built as part of an **academic NLP final project**.
 
 ---
 
-## 🛠 Installation & Setup
+## Installation & Setup
 
 ### 1️⃣ Clone the Repository
 ```bash
